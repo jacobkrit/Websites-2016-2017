@@ -1,0 +1,1338 @@
+body {
+  height: 100%;
+  font-family: Raleway, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  color: #515151;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #818181;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 20px;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  background-color: transparent;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #c7c7c7;
+  color: #fff;
+}
+
+.button.button-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+.button.button-white:hover {
+  background-color: hsla(0, 0%, 100%, .09);
+}
+
+.button.button-margin {
+  margin-left: 12px;
+}
+
+.navigation {
+  position: absolute;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .09);
+  background-color: transparent;
+}
+
+.navigation-menu {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+.navigation-link {
+  margin-left: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-bottom: 1px solid transparent;
+  color: hsla(0, 0%, 100%, .61);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation-link:hover {
+  border-bottom-color: #fff;
+  color: #fff;
+}
+
+.navigation-link.w--current {
+  border-bottom-color: #fff;
+  color: #fff;
+}
+
+.navigation-link.navigation-scroll {
+  color: rgba(61, 61, 61, .6);
+}
+
+.navigation-link.navigation-scroll:hover {
+  border-bottom-color: #000;
+  color: rgba(61, 61, 61, .9);
+}
+
+.navigation-link.navigation-scroll.w--current {
+  border-bottom-color: #000;
+  color: rgba(61, 61, 61, .9);
+}
+
+.container-welcome {
+  text-align: center;
+}
+
+.portfolio {
+  display: block;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+.section {
+  padding-top: 100px;
+  background-color: transparent;
+}
+
+.section.gray {
+  padding-bottom: 80px;
+  background-color: #f1f1f1;
+}
+
+.responsive {
+  display: block;
+  width: 100px;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+}
+
+.responsive.contact {
+  display: block;
+  margin: 40px auto 0px;
+}
+
+.responsive.news {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.slider {
+  height: 100%;
+  background-color: transparent;
+}
+
+.slider-nav {
+  position: fixed;
+  top: 719px;
+  display: none;
+  margin-right: 160px;
+  padding-top: 16px;
+  font-size: 10px;
+  text-align: right;
+}
+
+.arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 35px;
+  margin-left: 0px;
+  padding-top: 12px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  opacity: 0.8;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-size: 22px;
+}
+
+.arrow:hover {
+  opacity: 1;
+}
+
+.arrow.left {
+  margin-left: 30px;
+}
+
+.slide {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/me-dicen-cuba-out-19.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/me-dicen-cuba-out-19.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.slide.slide-2 {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/me-dicen-cuba-out-20.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/me-dicen-cuba-out-20.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.slide.slide-3 {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), transparent), url('../images/me-dicen-cuba-out-12.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url('../images/me-dicen-cuba-out-12.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.title-wrapper {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.title-wrapper.members {
+  margin-top: 80px;
+}
+
+.line {
+  display: block;
+  width: 7%;
+  height: 2px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  background-color: #ffa200;
+}
+
+.line.line-left {
+  width: 15%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.sub {
+  padding-right: 50px;
+  padding-left: 50px;
+  font-family: Raleway, sans-serif;
+  color: #999;
+  font-size: 18px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.sub.white {
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 1px 0 1px rgba(0, 0, 0, .4);
+}
+
+.row-portfolio {
+  margin-bottom: 10px;
+}
+
+.project-wrapper {
+  overflow: hidden;
+}
+
+.project-column {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  left: 5px;
+  top: 0px;
+  right: 5px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, .29);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-decoration: none;
+}
+
+.portfolio-overlay:hover {
+  background-color: transparent;
+}
+
+.title-portfolio {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.title-portfolio.event-place {
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, .8), hsla(0, 0%, 100%, .8));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .8), hsla(0, 0%, 100%, .8));
+  line-height: 29px;
+  text-shadow: 0 1px 2px #000;
+}
+
+.overlay-portfolio {
+  position: absolute;
+  left: 0px;
+  top: 45%;
+  right: 0px;
+  text-align: center;
+}
+
+.portfolio-sub {
+  font-family: 'Sorts Mill Goudy', sans-serif;
+  color: hsla(0, 0%, 100%, .9);
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.portfolio-sub.event-date {
+  height: auto;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, .73), hsla(0, 0%, 100%, .73));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .73), hsla(0, 0%, 100%, .73));
+  line-height: 32px;
+  text-shadow: 0 1px 2px #000;
+}
+
+.left-arrow {
+  position: absolute;
+  right: 0px;
+  display: block;
+  margin-right: 95px;
+  margin-left: auto;
+}
+
+.quote-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .43), hsla(0, 0%, 100%, 0)), url('../images/me-dicen-cuba-car-9.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .43), hsla(0, 0%, 100%, 0)), url('../images/me-dicen-cuba-car-9.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+}
+
+.service-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fafafa;
+}
+
+.text-number {
+  margin-bottom: 55px;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.name-number {
+  color: hsla(0, 0%, 100%, .72);
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.service-icon {
+  display: block;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin-right: auto;
+  margin-bottom: 35px;
+  margin-left: auto;
+  padding-top: 25px;
+  border: 1px solid #c7c7c7;
+  border-radius: 100%;
+}
+
+.service-icon.icon-2 {
+  padding-top: 33px;
+}
+
+.service-icon.icon-3 {
+  padding-top: 30px;
+}
+
+.service-column {
+  text-align: center;
+}
+
+.row-service {
+  margin-top: 90px;
+}
+
+.service-title {
+  margin-bottom: 20px;
+  color: #5d5d5d;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.service-title.in-footer {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.service-name {
+  margin-bottom: 20px;
+  font-family: 'Sorts Mill Goudy', sans-serif;
+  color: #888;
+  font-size: 19px;
+  font-style: italic;
+}
+
+.sun {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.hand-arrow {
+  position: absolute;
+  -webkit-transform: rotate(169deg);
+  -ms-transform: rotate(169deg);
+  transform: rotate(169deg);
+}
+
+.hand-text {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -87px;
+  font-family: 'Just Another Hand', sans-serif;
+  color: #999;
+  font-size: 26px;
+}
+
+.team-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f1f1f1;
+}
+
+.button-wrapper {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.button-wrapper.solid {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.staff {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.staff-column {
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.staff-overlay {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 18px;
+  padding-top: 4px;
+  opacity: 0.72;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  opacity: 1;
+}
+
+.client-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .43), hsla(0, 0%, 100%, 0)), url('../images/me-dicen-cuba-out-18.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .43), hsla(0, 0%, 100%, 0)), url('../images/me-dicen-cuba-out-18.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+}
+
+.features-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f1f1f1;
+}
+
+.row-logo {
+  text-align: center;
+}
+
+.icon-features {
+  width: 70px;
+  height: 70px;
+  margin-right: 17px;
+  padding-top: 19px;
+  float: left;
+  border: 1px solid #c7c7c7;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.features-text {
+  overflow: hidden;
+}
+
+.list {
+  margin-bottom: 50px;
+}
+
+.ul {
+  margin-top: 50px;
+}
+
+.contact-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fafafa;
+}
+
+.begin-wrapper {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 27px;
+  z-index: 20;
+  width: 100%;
+  text-align: center;
+}
+
+.begin {
+  margin-top: 10px;
+  margin-bottom: 7px;
+  font-family: 'Sorts Mill Goudy', sans-serif;
+  color: hsla(0, 0%, 100%, .8);
+  font-size: 16px;
+  font-style: italic;
+}
+
+.arrow-scroll {
+  opacity: 0.6;
+}
+
+.text-field {
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  font-family: 'Sorts Mill Goudy', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.text-field.text-area {
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 90px;
+}
+
+.column-footer {
+  padding-top: 50px;
+}
+
+.open {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #3d3d3d;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: #b8b8b8;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.open:hover {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.open-text {
+  display: inline-block;
+  margin-right: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.map {
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.arrow-map {
+  margin-bottom: 6px;
+  padding-top: 0px;
+}
+
+.footer {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.copyright {
+  font-family: 'Sorts Mill Goudy', sans-serif;
+  color: #a1a1a1;
+  font-size: 16px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.column-footer-2 {
+  text-align: right;
+}
+
+.big-text {
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 2px solid hsla(0, 0%, 100%, .2);
+  color: #fff;
+  font-size: 25px;
+  line-height: 0px;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.big-text.fist_home_text_big {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .32);
+}
+
+.container-slider {
+  position: relative;
+  top: 36%;
+  text-align: center;
+}
+
+.container-slider.first_home_container {
+  position: static;
+  left: 0px;
+  top: 36%;
+  right: 0px;
+  margin-top: 75px;
+}
+
+.medium-text {
+  display: block;
+  font-family: 'Sorts Mill Goudy', sans-serif;
+  color: hsla(0, 0%, 100%, .9);
+  font-size: 37px;
+  line-height: 30px;
+  font-style: italic;
+}
+
+.medium-text.first_home_textsmall {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+}
+
+.navbar-scroll {
+  position: fixed;
+  z-index: 1001;
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: hsla(0, 0%, 100%, .97);
+}
+
+.email {
+  color: #b5b5b5;
+  text-decoration: none;
+}
+
+.banner {
+  height: 600px;
+  background-image: url('../images/me-dicen-cuba-car-6.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.banner.member_page_1 {
+  height: 300px;
+}
+
+.banner.event-24-25-oct {
+  height: 300px;
+  background-image: url('../images/medicencuba-cool-1.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner.contact {
+  height: 300px;
+  background-image: url('../images/me-dicen-cuba-car-7.jpg');
+  background-position: 0px 0px;
+  background-size: 1280px;
+}
+
+.banner.home {
+  height: 400px;
+  background-image: url('../images/me-dicen-cuba-out-16.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner.member_page_2 {
+  height: 300px;
+  background-image: url('../images/me-dicen-cuba-out-11.jpg');
+  background-position: 50% 92%;
+  background-size: cover;
+}
+
+.banner.member_page_3 {
+  height: 300px;
+  background-image: url('../images/me-dicen-cuba-car-12.jpg');
+  background-position: 50% 85%;
+  background-size: cover;
+}
+
+.buttons-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.col-btn {
+  text-align: right;
+}
+
+.project-detail {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.project {
+  font-family: 'Sorts Mill Goudy', sans-serif;
+  color: #b8b8b8;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.list-project {
+  margin-top: 30px;
+}
+
+.success-message {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.error-message {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.form-paragraph {
+  color: #b84949;
+}
+
+.first_home_videobackground {
+  height: 100%;
+}
+
+.fist_home_footer {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.first_home_footer_copyrights_1 {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-family: 'Sorts Mill Goudy', sans-serif;
+  color: #a1a1a1;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.first_home_footer_copyrights_2 {
+  margin-right: 10px;
+  font-family: 'Sorts Mill Goudy', sans-serif;
+  color: #a1a1a1;
+  font-size: 17px;
+  font-style: italic;
+  text-align: right;
+}
+
+.first_home_footer_link {
+  color: #ff9d01;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.first_home_image {
+  display: block;
+  width: 160px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  opacity: 0.95;
+}
+
+.fist_home_container {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.first_home_small_text {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  font-family: 'Sorts Mill Goudy', sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, .4);
+}
+
+.first_home_big_text {
+  display: block;
+  width: 430px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 0px;
+  border-bottom: 2px solid hsla(0, 0%, 100%, .2);
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, .4);
+}
+
+.first_home_button {
+  display: block;
+  width: 125px;
+  height: auto;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.first_home_comming.help {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  display: none;
+  width: 300px;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5px;
+  background-color: #fff;
+  box-shadow: 3px -1px 6px 0 rgba(0, 0, 0, .4);
+  text-align: center;
+}
+
+.head_paragraph {
+  color: #642a04;
+}
+
+.head_paragraph.white {
+  color: #fff;
+}
+
+.home_background_div {
+  padding: 150px 50px;
+  background-image: -webkit-linear-gradient(91deg, rgba(0, 0, 0, .43) 28%, hsla(0, 0%, 100%, 0)), url('../images/me-dicen-cuba-car-5.jpg');
+  background-image: linear-gradient(359deg, rgba(0, 0, 0, .43) 28%, hsla(0, 0%, 100%, 0)), url('../images/me-dicen-cuba-car-5.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+}
+
+.home_background_div_in {
+  background-color: #fff;
+}
+
+.members_link_more {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.event-video {
+  margin-top: 25px;
+}
+
+.clients-image-1 {
+  margin-top: 38px;
+}
+
+.clients-image-2 {
+  width: 100px;
+}
+
+.facebook_like {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 5;
+  margin-top: -78px;
+  margin-left: 21px;
+}
+
+.contact_facebook {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact_map {
+  width: auto;
+  height: 415px;
+}
+
+.member-image-rosa {
+  width: 200px;
+}
+
+.spanish_igor {
+  text-align: left;
+}
+
+.event_tabs {
+  width: 83%;
+  margin-top: 15px;
+}
+
+.tablink {
+  margin-right: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, .12);
+  border-radius: 5px;
+}
+
+.tabcontent {
+  margin-top: 20px;
+}
+
+.link24-25-noc {
+  color: #000;
+}
+
+.event-24-image-2 {
+  margin-left: 4px;
+}
+
+html.w-mod-js *[data-ix="hide-social-on-load"] {
+  -webkit-transform: translate(0px, 60px);
+  -ms-transform: translate(0px, 60px);
+  transform: translate(0px, 60px);
+}
+
+html.w-mod-js *[data-ix="display-none-on-load"] {
+  height: 0px;
+}
+
+html.w-mod-js *[data-ix="slide-in-slider-big-text-on-slide"] {
+  opacity: 0;
+  -webkit-transform: scale(0.7000000000000002, 0.7000000000000002);
+  -ms-transform: scale(0.7000000000000002, 0.7000000000000002);
+  transform: scale(0.7000000000000002, 0.7000000000000002);
+}
+
+html.w-mod-js *[data-ix="slide-in-slider-big-text-on-slide-2"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -40px);
+  -ms-transform: translate(0px, -40px);
+  transform: translate(0px, -40px);
+}
+
+html.w-mod-js *[data-ix="slide-in-slider-big-text-on-slide-3"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 40px);
+  -ms-transform: translate(0px, 40px);
+  transform: translate(0px, 40px);
+}
+
+html.w-mod-js *[data-ix="slide-out-navigation-scroll-on-load"] {
+  display: none;
+}
+
+html.w-mod-js *[data-ix="fist-home-small-text"] {
+  opacity: 0.15;
+  -webkit-transform: translate(0px, -40px);
+  -ms-transform: translate(0px, -40px);
+  transform: translate(0px, -40px);
+}
+
+html.w-mod-js *[data-ix="fist-home-big-text"] {
+  opacity: 0;
+  -webkit-transform: scale(0.75, 0.75);
+  -ms-transform: scale(0.75, 0.75);
+  transform: scale(0.75, 0.75);
+}
+
+html.w-mod-js *[data-ix="fist-home-button"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 40px);
+  -ms-transform: translate(0px, 40px);
+  transform: translate(0px, 40px);
+}
+
+html.w-mod-js *[data-ix="first-home-logo"] {
+  opacity: 0;
+  -webkit-transform: scale(0.65, 0.65);
+  -ms-transform: scale(0.65, 0.65);
+  transform: scale(0.65, 0.65);
+}
+
+html.w-mod-js *[data-ix="first-home-footer-1"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="fist-home-footer-2"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="comming"] {
+  display: block;
+  -webkit-transform: translate(0px, -80px);
+  -ms-transform: translate(0px, -80px);
+  transform: translate(0px, -80px);
+}
+
+@media (max-width: 991px) {
+  body {
+    height: auto;
+  }
+  h3 {
+    text-align: center;
+  }
+  .navigation-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgba(0, 0, 0, .83);
+  }
+  .navigation-link {
+    margin-right: 30px;
+  }
+  .portfolio {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .slider {
+    height: auto;
+  }
+  .line.line-left {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .title-portfolio {
+    font-size: 13px;
+  }
+  .portfolio-sub {
+    font-size: 14px;
+  }
+  .text-number {
+    font-size: 60px;
+  }
+  .container-slider {
+    top: 0%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  .banner {
+    height: 400px;
+    background-position: 50% 50%;
+  }
+  .menu {
+    color: #fff;
+  }
+  .menu.w--open {
+    background-color: rgba(0, 0, 0, .56);
+  }
+  .first_home_videobackground {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    height: auto;
+  }
+  .event-24-image-2 {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sub {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 17px;
+  }
+  .row-portfolio {
+    margin-bottom: 0px;
+  }
+  .project-column {
+    margin-bottom: 10px;
+  }
+  .service-column {
+    margin-bottom: 30px;
+  }
+  .staff-overlay {
+    display: block;
+    width: 98.5%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .copyright {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .column-footer-2 {
+    text-align: center;
+  }
+  .big-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    line-height: 66px;
+  }
+  .col-btn {
+    text-align: center;
+  }
+  .menu {
+    margin-top: 6px;
+    margin-right: 14px;
+  }
+  .column-space {
+    margin-bottom: 50px;
+  }
+  .column-space.space-2 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .column-1 {
+    margin-bottom: 22px;
+    text-align: center;
+  }
+  .column-space-2 {
+    margin-top: 30px;
+  }
+  .first_home_videobackground {
+    background-image: url('../images/video-image-medicencuba.png');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .first_home_footer_copyrights_1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .first_home_footer_copyrights_2 {
+    margin-right: 0px;
+    text-align: center;
+  }
+  .first_home_comming.help {
+    width: 150px;
+    height: 50px;
+  }
+  .member_image.igor_hernandes {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .members_container {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .event-24-image-1 {
+    width: 300px;
+  }
+  .event-24-image-2 {
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .sub.white {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .title-portfolio {
+    font-size: 26px;
+  }
+  .staff-overlay {
+    width: 100%;
+  }
+  .column-footer {
+    margin-bottom: 40px;
+  }
+  .big-text {
+    font-size: 35px;
+  }
+  .container-slider {
+    margin-bottom: 150px;
+  }
+  .medium-text {
+    font-size: 15px;
+  }
+  .menu {
+    margin-right: 10px;
+  }
+  .first_home_videobackground {
+    background-position: 31% 50%;
+  }
+  .fist_home_container {
+    margin-top: 50px;
+  }
+  .first_home_big_text {
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 50px;
+  }
+  .first_home_button {
+    margin-top: 30px;
+  }
+  .members_container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@font-face {
+  font-family: 'Lovelo';
+  src: url('../fonts/Lovelo-Black.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}

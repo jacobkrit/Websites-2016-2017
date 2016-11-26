@@ -1,0 +1,2024 @@
+body {
+  height: auto;
+}
+
+h1 {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 70px;
+  line-height: 44px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: Lato, sans-serif;
+  color: #4a4a4a;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #4a4a4a;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h5 {
+  margin-top: 15px;
+  margin-bottom: 7px;
+  float: left;
+  font-family: Lato, sans-serif;
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: Lato, sans-serif;
+  color: #828282;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 1px;
+  text-indent: 0px;
+  text-transform: none;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 59px;
+  padding: 15px 35px;
+  border-radius: 7px;
+  background-color: #00c2a2;
+  box-shadow: 0 2px 0 0 #02967e;
+  -webkit-transition: all 700ms ease;
+  transition: all 700ms ease;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #828282;
+  box-shadow: 0 2px 0 0 dimgray;
+}
+
+.button.hero-button {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 150px;
+  border: 2px solid #5696db;
+  border-radius: 0px;
+  background-color: rgba(86, 150, 219, .3);
+  box-shadow: none;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+
+.button.hero-button:hover {
+  border-color: #5696db;
+  background-color: #5696db;
+  box-shadow: none;
+  color: #fff;
+}
+
+.hero-section {
+  position: relative;
+  height: 100%;
+  background-image: url('../images/a.l.4.georgilas.cavehouse.jpg');
+  background-position: 100% 50%;
+  background-size: cover;
+}
+
+.hero-section.contact_us {
+  background-image: url('../images/a.out.2.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-section.about_as {
+  background-image: url('../images/out.7.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-section.lodge_b {
+  background-image: url('../images/b.out.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.hero-section.lodge_a {
+  background-image: url('../images/a.out.3.b.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.hero-section.lodge_d1 {
+  background-image: url('../images/cover_big_d1.out.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.hero-section.lodge_g {
+  background-image: url('../images/out.8.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.hero-section.home_page {
+  position: relative;
+  height: auto;
+  background-image: none;
+}
+
+.navbar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 999;
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: transparent;
+}
+
+.logo {
+  position: static;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  -webkit-transition: color 500ms ease;
+  transition: color 500ms ease;
+  font-family: 'Great Vibes', cursive;
+  color: #fff;
+  font-size: 30px;
+  text-transform: none;
+}
+
+.logo:hover {
+  color: #c4a276;
+}
+
+.logo.big {
+  font-size: 50px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+}
+
+.logo.big.contact {
+  margin-top: 90px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.logo.big.contact.black {
+  color: #000;
+}
+
+.upper-heading {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-family: Merriweather, serif;
+  color: hsla(0, 0%, 95%, .65);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: none;
+}
+
+.upper-heading.title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Great Vibes', cursive;
+  color: #5696db;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-transform: none;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+}
+
+.upper-heading.hero {
+  display: block;
+  margin: 20px auto 30px;
+  font-family: 'Great Vibes', cursive;
+  color: #5696db;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: none;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+}
+
+.upper-heading.second {
+  margin-top: 20px;
+  font-size: 64px;
+  letter-spacing: 1px;
+}
+
+.section {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.section.about-ferrano {
+  height: 498px;
+  background-image: url('../images/holding_table_small_white.jpg');
+  background-position: 50% 95%;
+  background-size: cover;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+
+.section {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  opacity: 1;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+
+.section.facts {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url('../images/add.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section.gallery {
+  padding-bottom: 0px;
+}
+
+.section.gallery:hover {
+  box-shadow: 0 0 3px -12px #adafb3;
+}
+
+.section.clients {
+  background-image: url('../images/542405e9d903582652f05619_Dollarphotoclub_62029394.min-min.jpg');
+  background-size: cover;
+}
+
+.texbar {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-image: url('../images/add.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.texbar:hover {
+  background-color: #dba94b;
+  box-shadow: none;
+}
+
+.hero-texbar {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.colum-facts {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid transparent;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-align: center;
+}
+
+.colum-facts:hover {
+  border: 1px solid #dba94b;
+}
+
+.numbers {
+  margin-bottom: auto;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.white-title {
+  margin-bottom: 30px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+}
+
+.white-title.fact {
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-size: 60px;
+}
+
+.white-title.second {
+  margin-bottom: 70px;
+}
+
+.center-text {
+  margin-bottom: 0px;
+  float: none;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+.overall-column {
+  text-align: center;
+}
+
+.overall-column.contact {
+  position: relative;
+  padding: 20px;
+  -webkit-transition: box-shadow 500ms ease;
+  transition: box-shadow 500ms ease;
+  text-align: center;
+}
+
+.overall-column.contact:hover {
+  background-color: transparent;
+  box-shadow: 0 1px 12px 0 hsla(220, 4%, 69%, .5);
+}
+
+.sircle-icon-block {
+  width: 100px;
+  height: 100px;
+  float: none;
+  border: 1px solid #adafb3;
+  border-radius: 22px;
+  -webkit-transition: border-color 1000ms ease, box-shadow 1000ms ease;
+  transition: border-color 1000ms ease, box-shadow 1000ms ease;
+}
+
+.sircle-icon-block:hover {
+  border-color: #00c2a2;
+  box-shadow: 0 0 2px 1px hsla(220, 4%, 69%, .47);
+  -webkit-transition: none 0ms ease;
+  transition: none 0ms ease;
+}
+
+.sircle-icon-block.social {
+  width: 35px;
+  height: 35px;
+  margin: 20px 5px;
+  border: 0px none #dba94b;
+  border-radius: 0px;
+  background-color: #dedede;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+
+.sircle-icon-block.social:hover {
+  background-color: rgba(26, 29, 46, .97);
+  box-shadow: none;
+  -webkit-transition: none 0ms ease;
+  transition: none 0ms ease;
+}
+
+.sircle-icon-block.social.contact {
+  margin-left: auto;
+  float: none;
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+}
+
+.sircle-icon-block.social.contact:hover {
+  background-color: #dba94b;
+  box-shadow: none;
+}
+
+.color-stripe {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  background-color: #00c2a2;
+  background-image: url('../images/wall 3-min.jpg');
+  background-position: 50% 34%;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  opacity: 1;
+}
+
+.team-name {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.team-tittle {
+  margin-top: 10px;
+  font-family: 'Great Vibes', cursive;
+  color: #dba94b;
+  font-size: 19px;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.social-icon {
+  width: 15px;
+  margin: 8px 10px;
+  opacity: 1;
+  -webkit-transition: opacity 700ms ease;
+  transition: opacity 700ms ease;
+}
+
+.social-icon:hover {
+  opacity: 1;
+}
+
+.testimonials-text {
+  height: 170px;
+  float: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+}
+
+.footer {
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #5696db;
+}
+
+.copyright {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: none;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  text-transform: none;
+}
+
+.copyright:hover {
+  color: #ffc964;
+}
+
+.nav-link {
+  margin-right: 2px;
+  padding: 15px 12px;
+  border-radius: 9px;
+  opacity: 1;
+  -webkit-transition: color 500ms ease;
+  transition: color 500ms ease;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+}
+
+.nav-link:hover {
+  border-radius: 9px;
+  opacity: 1;
+  color: #c4a276;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.nav-link.w--current {
+  opacity: 1;
+  color: #fff;
+}
+
+.nav-link.w--current:hover {
+  border-radius: 0px;
+  color: #dba94b;
+  text-decoration: none;
+}
+
+.icon-menu {
+  color: #fff;
+}
+
+.icon-menu:hover {
+  color: #dba94b;
+}
+
+.hero-link-button {
+  display: block;
+  width: 60px;
+  height: 60px;
+  min-width: 0px;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  float: none;
+  background-color: transparent;
+  opacity: 1;
+  -webkit-transition: none 0ms ease;
+  transition: none 0ms ease;
+  text-decoration: underline;
+}
+
+.hero-link-button:hover {
+  border-color: #00c2a2;
+  opacity: 1;
+}
+
+.hero-link-button.w--current {
+  padding-top: 15px;
+  border-color: hsla(0, 0%, 100%, .49);
+  opacity: 1;
+  -webkit-transition: border-color 700ms ease, opacity 700ms ease;
+  transition: border-color 700ms ease, opacity 700ms ease;
+}
+
+.hero-link-button.w--current:hover {
+  border-color: #00c2a2;
+  opacity: 1;
+  -webkit-transition: none 0ms ease;
+  transition: none 0ms ease;
+}
+
+.arrow {
+  opacity: 1;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.arrow:hover {
+  opacity: 1;
+  -webkit-transition: none 0ms ease;
+  transition: none 0ms ease;
+}
+
+.navbar-scroll {
+  position: fixed;
+  display: none;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #5696db;
+  box-shadow: none;
+}
+
+.hero-heading {
+  margin-bottom: 60px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  font-size: 85px;
+  letter-spacing: 0px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+}
+
+.slider-mask {
+  border-radius: 0px;
+}
+
+.testimonilas {
+  padding-top: 150px;
+  padding-bottom: 180px;
+  background-image: url('../images/add.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.hero-text.wrapper {
+  margin-top: 40%;
+}
+
+.hero-text.wrapper.second {
+  margin-top: auto;
+}
+
+.hero-text.wrapper.motive {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 33%;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.hero-text.holding_table {
+  height: auto;
+  margin-top: -23px;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-left: 40px;
+}
+
+.slide-nav {
+  display: none;
+}
+
+.flower-image {
+  display: block;
+  margin-top: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flower-image.contact_us {
+  margin-top: 100px;
+}
+
+.navbar-containner {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+}
+
+.ornament {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.ornament.fact {
+  margin-top: 30px;
+}
+
+.about-text {
+  margin-right: 180px;
+  margin-bottom: 20px;
+  margin-left: 180px;
+  text-align: center;
+}
+
+.about-text.menu {
+  margin-right: 180px;
+  margin-bottom: 20px;
+  margin-left: 180px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.about-text.specialities {
+  margin-right: 180px;
+  margin-bottom: 70px;
+  margin-left: 180px;
+}
+
+.about-text.team {
+  margin-right: 180px;
+  margin-bottom: 70px;
+  margin-left: 180px;
+}
+
+.dark-title {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #000;
+  font-size: 40px;
+}
+
+.our-motives {
+  padding-top: 100px;
+}
+
+.image-overlay {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.image-overlay:hover {
+  background-color: rgba(0, 0, 0, .45);
+  box-shadow: inset 0 6px 50px -2px #000;
+  opacity: 1;
+}
+
+.image-overlay.specialities {
+  position: absolute;
+  display: block;
+  height: auto;
+  margin: 15px;
+  padding-left: 0px;
+  border: 2px solid #fff;
+  opacity: 1;
+}
+
+.image-overlay.specialities:hover {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.image-overlay.specialities.dark {
+  height: auto;
+  margin: 17px;
+  border-style: none;
+  border-width: 0px;
+  opacity: 0;
+}
+
+.image-overlay.specialities.dark:hover {
+  background-color: rgba(0, 0, 0, .49);
+  box-shadow: none;
+  opacity: 1;
+}
+
+.motive-image {
+  left: 0px;
+  top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.icon-service {
+  display: block;
+  width: 150px;
+  height: 150px;
+  min-width: 0px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  background-image: url('../images/cakes_1.svg');
+  background-position: 50% 50%;
+  background-size: 138px;
+  background-repeat: no-repeat;
+}
+
+.icon-service.cake {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  background-image: url('../images/cakes.svg');
+  background-position: 50% 0px;
+}
+
+.icon-service.coffe {
+  margin-bottom: 10px;
+  background-image: url('../images/coffe.svg');
+  background-size: 126px;
+}
+
+.icon-service.salades {
+  margin-bottom: 10px;
+  background-image: url('../images/salade.svg');
+  background-size: 148px;
+}
+
+.icon-service.fish {
+  margin-bottom: 10px;
+  background-image: url('../images/fish.svg');
+  background-size: 150px;
+}
+
+.icon-service.soups {
+  margin-bottom: 10px;
+  background-image: url('../images/soaps.svg');
+  background-size: 115px;
+}
+
+.icon-service.organic {
+  margin-bottom: 10px;
+  background-image: url('../images/organic.svg');
+  background-size: 127px;
+}
+
+.icon-service.wine {
+  margin-bottom: 10px;
+  background-image: url('../images/wine .svg');
+  background-position: 50% 0px;
+  background-size: 134px;
+}
+
+.icon-service.beer {
+  margin-bottom: 10px;
+  background-image: url('../images/beer.svg');
+  background-position: 50% 0px;
+  background-size: 131px;
+}
+
+.icon-service.cocktails {
+  margin-bottom: 10px;
+  background-image: url('../images/coactails.svg');
+  background-position: 50% 0px;
+  background-size: 131px;
+}
+
+.icon-service.sweet {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  background-image: url('../images/sweet 1.svg');
+  background-size: 170px;
+}
+
+.icon-service.sweet._4 {
+  background-image: url('../images/sweet 5.svg');
+  background-size: 175px;
+}
+
+.icon-service.sweet._2 {
+  background-image: url('../images/sweet 7.svg');
+  background-size: 175px;
+}
+
+.icon-service.sweet._5 {
+  background-image: url('../images/sweet 3.svg');
+}
+
+.specialities-column {
+  padding-right: 2px;
+  padding-bottom: 0px;
+  padding-left: 2px;
+}
+
+.specialities-column.long {
+  height: auto;
+  margin-bottom: 0px;
+}
+
+.specialities-name {
+  margin-top: 20px;
+  margin-bottom: auto;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  font-size: 30px;
+}
+
+.logo-slide {
+  height: auto;
+  background-color: transparent;
+}
+
+.logo-row {
+  text-align: center;
+}
+
+.ico-wrapper {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.ico-wrapper.long {
+  margin-top: 60%;
+}
+
+.secret-containner {
+  text-align: center;
+}
+
+.section-info.contact {
+  background-color: rgba(26, 29, 46, .97);
+}
+
+.contact-map-form {
+  position: relative;
+  top: -80px;
+  padding: 55px 20px;
+  border: 7px solid #5696db;
+  background-color: #fff;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+
+.info-conatct-text {
+  margin-top: 90px;
+  color: #828282;
+  text-align: left;
+}
+
+.containner-testimonials {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(26, 29, 46, .27);
+}
+
+.testimonials-slide {
+  height: 170px;
+  background-color: transparent;
+}
+
+.left-arrow {
+  display: none;
+}
+
+.right-arrow {
+  display: none;
+}
+
+.slide-1 {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.company-text {
+  text-align: left;
+}
+
+.menu {
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+
+.social-div {
+  text-align: center;
+}
+
+.hero-containner {
+  position: static;
+  display: block;
+  overflow: visible;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 15px 35px;
+  background-color: rgba(26, 29, 46, .97);
+  opacity: 0.85;
+  -webkit-transition: opacity 700ms ease;
+  transition: opacity 700ms ease;
+}
+
+.submit-button:hover {
+  background-color: rgba(26, 29, 46, .97);
+  opacity: 1;
+}
+
+.text-field {
+  margin-bottom: 20px;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  font-family: Lato, sans-serif;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text-field:hover {
+  background-color: #f2f2f2;
+}
+
+.text-area {
+  min-height: 170px;
+  margin-bottom: 20px;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  font-family: Lato, sans-serif;
+  color: #828282;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text-area:hover {
+  background-color: #f2f2f2;
+}
+
+.success-message {
+  background-color: #afedcb;
+}
+
+.textbar-div {
+  height: 170px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid #5696db;
+  background-color: rgba(26, 29, 46, .27);
+}
+
+.div-image {
+  margin: auto 2px 4px;
+}
+
+.link-overlay {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  background-color: rgba(0, 0, 0, .29);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.link-overlay:hover {
+  background-color: rgba(0, 0, 0, .4);
+  box-shadow: inset 0 6px 50px -2px #000;
+}
+
+.home_head_slider {
+  position: relative;
+  display: block;
+  width: auto;
+  height: auto;
+  clear: none;
+}
+
+.home_head_slider_in_1 {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: inline-block;
+  overflow: visible;
+  width: auto;
+  height: auto;
+}
+
+.home_head_slider_mask {
+  position: static;
+  overflow: visible;
+  width: auto;
+  height: 900px;
+  background-color: #5696db;
+  background-image: url('../images/cover_small_out.2.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slider_image {
+  position: static;
+  z-index: 0;
+  overflow: visible;
+  width: 1400px;
+  height: auto;
+  max-height: 100%;
+  min-height: 0%;
+}
+
+.home_head_slider_div_text {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 7;
+  display: block;
+  margin-right: 120px;
+  margin-left: 120px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.home_head_slider_div_text._2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: auto;
+  background-image: url('../images/cover_big_d1.out.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slider_div_text._3 {
+  background-image: url('../images/cover_big_a.out.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slider_div_text._4 {
+  background-image: url('../images/cover_big_d1.room.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slider_div_text._5 {
+  background-image: url('../images/cover_big_a.room1.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slider_div_text._6 {
+  background-image: url('../images/cover_big_a.room3.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slider_div_text._8 {
+  background-image: url('../images/small_POSTER B.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slider_div_text._1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: auto;
+  height: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url('../images/cover_big_out.2.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slider_in_2 {
+  position: static;
+  display: inline-block;
+}
+
+.home_head_slider_in_3 {
+  position: static;
+}
+
+.home_head_slider_nav {
+  display: none;
+}
+
+.home_sneakpeek_row {
+  margin-bottom: 4px;
+}
+
+.home_head_slide_1 {
+  background-image: url('../images/cover_big_out.2.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slide_2 {
+  background-image: url('../images/cover_big_d1.out.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slide_3 {
+  background-image: url('../images/cover_big_a.out.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slide_4 {
+  background-image: url('../images/cover_big_d1.room.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slide_5 {
+  background-image: url('../images/cover_big_a.room1.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slide_6 {
+  background-image: url('../images/cover_big_a.room3.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_head_slide_7 {
+  background-image: url('../images/cover_big_b.out.2.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.divader_white {
+  height: 100px;
+  background-color: #fff;
+}
+
+.divader_white.end {
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.divader_white.pre_end {
+  height: auto;
+  padding-top: 70px;
+}
+
+.divader_white.pre_end.lodge {
+  padding-top: 0px;
+}
+
+.divader_white.contact_us {
+  height: 200px;
+}
+
+.divader_white.contact_us.end {
+  height: 250px;
+  background-image: url('../images/a.out.2.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.divader_white.about_us.background {
+  height: 250px;
+  background-image: url('../images/out.7.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home_button_book {
+  display: block;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 35px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.home_button_book:hover {
+  border-style: none;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.home_slider {
+  position: static;
+  display: block;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  clear: none;
+}
+
+.home_slider_mask {
+  position: static;
+  display: block;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+
+.home_slider_image {
+  display: none;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.home_slider_background {
+  height: 800px;
+  background-image: url('../images/cover_big_out.2.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_slider_background._2 {
+  background-image: url('../images/cover_big_d1.out.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_slider_background._3 {
+  background-image: url('../images/cover_big_a.out.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_slider_background._4 {
+  background-image: url('../images/cover_big_d1.room.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_slider_background._5 {
+  background-image: url('../images/cover_big_a.room1.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_slider_background._6 {
+  background-image: url('../images/cover_big_a.room3.1.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.home_slider_background._7 {
+  background-image: url('../images/cover_big_b.out.2.georgilas.cavehouse.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.rosettasoft_link {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+}
+
+html.w-mod-js *[data-ix="hero-arrow-block-link"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+  -ms-transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+  transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+}
+
+html.w-mod-js *[data-ix="display-none"] {
+  display: none;
+}
+
+html.w-mod-js *[data-ix="flower-icon"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+  -ms-transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+  transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+}
+
+html.w-mod-js *[data-ix="upper-heading"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+  -ms-transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+  transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+}
+
+html.w-mod-js *[data-ix="hero-heading"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+  -ms-transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+  transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+}
+
+html.w-mod-js *[data-ix="hero-button"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+  -ms-transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+  transform: translate(0px, 20px) scale(0.9500000000000002, 0.9500000000000002);
+}
+
+html.w-mod-js *[data-ix="contact-form"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 20px) scale(0.7000000000000002, 0.7000000000000002);
+  -ms-transform: translate(0px, 20px) scale(0.7000000000000002, 0.7000000000000002);
+  transform: translate(0px, 20px) scale(0.7000000000000002, 0.7000000000000002);
+}
+
+html.w-mod-js *[data-ix="row-menu-1"] {
+  opacity: 0;
+  -webkit-transform: scale(0.98, 0.98);
+  -ms-transform: scale(0.98, 0.98);
+  transform: scale(0.98, 0.98);
+}
+
+html.w-mod-js *[data-ix="row-menu-2"] {
+  opacity: 0;
+  -webkit-transform: scale(0.98, 0.98);
+  -ms-transform: scale(0.98, 0.98);
+  transform: scale(0.98, 0.98);
+}
+
+html.w-mod-js *[data-ix="row-menu-3"] {
+  opacity: 0;
+  -webkit-transform: scale(0.98, 0.98);
+  -ms-transform: scale(0.98, 0.98);
+  transform: scale(0.98, 0.98);
+}
+
+@media (max-width: 991px) {
+  body {
+    height: auto;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 74px;
+    letter-spacing: 0px;
+  }
+  h3 {
+    text-align: left;
+  }
+  p {
+    margin-bottom: 0px;
+    font-size: 14px;
+  }
+  .button {
+    margin-bottom: 20px;
+  }
+  .button.hero-button {
+    margin-bottom: 80px;
+  }
+  .hero-section {
+    padding-bottom: 0px;
+    background-position: 50% 50%;
+  }
+  .logo.big {
+    margin-top: 10px;
+  }
+  .upper-heading.hero {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .upper-heading.second {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 52px;
+  }
+  .section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+  .section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+  .section.facts {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background-image: url('../images/add.1.georgilas.cavehouse.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .section.gallery {
+    padding-top: 110px;
+  }
+  .hero-texbar {
+    font-size: 17px;
+  }
+  .colum-facts {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .numbers {
+    margin-top: auto;
+  }
+  .white-title {
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+  .center-text {
+    font-size: 14px;
+  }
+  .menu-button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: hsla(0, 0%, 100%, .29);
+    border-radius: 0px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .6);
+    -webkit-transition: background-color 500ms ease;
+    transition: background-color 500ms ease;
+  }
+  .menu-button:hover {
+    background-color: hsla(0, 0%, 100%, .29);
+    -webkit-transition: none 0ms ease;
+    transition: none 0ms ease;
+  }
+  .menu-button.w--open {
+    left: 0px;
+    top: 0px;
+    height: auto;
+    padding-left: 18px;
+    float: right;
+    background-color: hsla(0, 0%, 100%, .13);
+    text-align: left;
+  }
+  .overall-column {
+    margin-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .overall-column.contact {
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  .color-stripe {
+    background-position: 50% 50%;
+    background-size: 989px;
+  }
+  .copyright {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .nav-link {
+    margin: 4px 10px;
+    text-align: center;
+  }
+  .icon-menu {
+    display: block;
+    opacity: 1;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+  }
+  .icon-menu.lines:hover {
+    color: #fff;
+  }
+  .hero-link-button {
+    margin-bottom: 50px;
+  }
+  .navbar-scroll {
+    display: none;
+  }
+  .hero-heading {
+    margin-bottom: 40px;
+    font-size: 55px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+  }
+  .nav-menu {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, .6);
+  }
+  .hero-text.wrapper.motive {
+    top: 3%;
+    margin-top: 15%;
+  }
+  .flower-image {
+    display: block;
+    margin-top: 120px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .navbar-containner {
+    -webkit-transition: background-color 500ms ease;
+    transition: background-color 500ms ease;
+  }
+  .about-text {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .about-text.menu {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .about-text.specialities {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .about-text.team {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .image-overlay.specialities {
+    margin: 10px;
+  }
+  .image-overlay.specialities.dark {
+    margin: 12px;
+  }
+  .icon-service.sweet {
+    width: 150px;
+    height: 150px;
+    background-size: 124px;
+  }
+  .icon-service.sweet._4 {
+    width: 150px;
+    height: 150px;
+    background-size: 120px;
+  }
+  .icon-service.sweet._2 {
+    width: 150px;
+    height: 150px;
+    background-size: 126px;
+  }
+  .icon-service.sweet._5 {
+    background-image: url('../images/sweet 3.svg');
+  }
+  .specialities-name {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+  .logo-slide {
+    clear: both;
+  }
+  .ico-wrapper {
+    margin-top: 10%;
+  }
+  .testimonials-slide {
+    margin-top: 20px;
+  }
+  .slide-nav {
+    padding-top: 20px;
+  }
+  .hero-containner {
+    margin-top: 0px;
+  }
+  .div-image {
+    margin-top: 0px;
+  }
+  .home_head_slider_mask {
+    height: 700px;
+    margin-top: 0px;
+  }
+  .home_head_slider_div_text._6 {
+    background-position: 50% 50%;
+  }
+  .home_slider_background {
+    height: 700px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h4 {
+    text-align: center;
+  }
+  p {
+    margin-bottom: auto;
+  }
+  .logo.big.contact {
+    text-align: center;
+  }
+  .upper-heading.hero {
+    box-shadow: none;
+    font-size: 45px;
+    line-height: 43px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+  }
+  .section.about-ferrano {
+    background-position: 50% 100%;
+  }
+  .section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+  .section.facts {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .texbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .hero-texbar {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  .colum-facts {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .numbers {
+    margin-top: auto;
+  }
+  .facts {
+    margin-bottom: 30px;
+  }
+  .white-title {
+    margin-bottom: 0px;
+  }
+  .menu-button {
+    margin-right: 15px;
+  }
+  .overall-column.contact {
+    margin-bottom: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: left;
+  }
+  .sircle-icon-block.social.contact {
+    margin-top: 30px;
+    margin-bottom: 90px;
+  }
+  .color-stripe {
+    background-position: 80% 46%;
+    background-size: auto;
+  }
+  .testimonials-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .copyright {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    float: none;
+    text-align: center;
+  }
+  .arrow {
+    margin-top: -20px;
+  }
+  .hero-heading {
+    font-size: 50px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+  }
+  .nav-menu {
+    top: 101px;
+  }
+  .testimonilas {
+    margin-top: 0px;
+  }
+  .hero-text.wrapper.motive {
+    margin-top: 15%;
+  }
+  .flower-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .about-text {
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+  .about-text.menu {
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+  .icon-service.sweet {
+    width: 200px;
+    height: 200px;
+    background-size: 165px;
+  }
+  .icon-service.sweet._4 {
+    width: 200px;
+    height: 200px;
+    background-size: 165px;
+  }
+  .icon-service.sweet._2 {
+    width: 200px;
+    height: 200px;
+    background-size: 165px;
+  }
+  .ico-wrapper {
+    margin-top: 20%;
+  }
+  .info-conatct-text {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .slide-1 {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .slide-nav {
+    display: none;
+  }
+  .info-comapny-column {
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  .company-text {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .hero-containner {
+    margin-top: 0px;
+  }
+  .home_head_slider_div_text {
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+  .home_head_slider_div_text._6 {
+    background-position: 50% 50%;
+  }
+  .home_head_slider_div_text._1 {
+    background-image: none;
+  }
+  .home_head_slide_1 {
+    background-image: url('../images/cover_big_out.2.georgilas.cavehouse.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .home_head_slide_2 {
+    background-image: url('../images/cover_big_d1.out.1.georgilas.cavehouse.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .home_head_slide_3 {
+    background-image: url('../images/cover_big_a.out.1.georgilas.cavehouse.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .home_head_aroow_left {
+    display: inline-block;
+  }
+  .home_head_aroow_right {
+    display: block;
+  }
+  .home_slider_background {
+    height: 700px;
+  }
+}
+
+@media (max-width: 479px) {
+  h1 {
+    font-size: 35px;
+    line-height: 48px;
+  }
+  h2 {
+    margin-bottom: 50px;
+  }
+  .navbar {
+    padding-top: 15px;
+  }
+  .logo.big {
+    width: 149px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    font-size: 25px;
+  }
+  .upper-heading {
+    margin-bottom: auto;
+    font-size: 16px;
+  }
+  .upper-heading.title {
+    margin-top: 0px;
+    font-size: 27px;
+  }
+  .upper-heading.hero {
+    font-size: 30px;
+  }
+  .upper-heading.second {
+    margin-top: 5px;
+    font-size: 30px;
+  }
+  .section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+  .section.gallery {
+    padding-top: 110px;
+  }
+  .white-title {
+    margin-bottom: 0px;
+    font-size: 22px;
+  }
+  .menu-button {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .6);
+  }
+  .arrow {
+    margin-top: -40px;
+  }
+  .hero-heading {
+    margin-right: -40px;
+    margin-left: -40px;
+    font-size: 38px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+  }
+  .hero-text.holding_table {
+    margin-top: -70px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .slide-nav {
+    display: none;
+  }
+  .flower-image {
+    display: block;
+    width: 100px;
+    max-width: 80%;
+    margin-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .ornament {
+    margin-bottom: 20px;
+  }
+  .about-text {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .about-text.menu {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .about-text.specialities {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .about-text.team {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .dark-title {
+    font-size: 23px;
+  }
+  .specialities-name {
+    margin-top: 0px;
+  }
+  .ico-wrapper {
+    margin-top: 10%;
+  }
+  .slide-1 {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+  .slide-nav {
+    display: none;
+  }
+  .company-text {
+    margin-bottom: 20px;
+  }
+  .home_head_slider_mask {
+    height: 550px;
+  }
+  .home_head_slider_div_text {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .home_head_slider_div_text._2 {
+    background-position: 61% 50%;
+  }
+  .home_head_slider_div_text._3 {
+    background-position: 62% 50%;
+  }
+  .home_head_slider_div_text._5 {
+    background-position: -185px 50%;
+  }
+  .home_head_slider_div_text._6 {
+    background-position: 50% 50%;
+  }
+  .home_slider_image {
+    display: none;
+    max-width: 170%;
+    float: none;
+  }
+  .home_slider_background._2 {
+    background-position: 51% 100%;
+  }
+  .home_slider_background._5 {
+    background-position: -312px 50%;
+  }
+}
+
